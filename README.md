@@ -75,6 +75,8 @@ docker-compose -version
 
 ## 실행 방법
 #### 1. docker-compose를 사용하여 모든 호스트를 불러옵니다.
+![image](https://user-images.githubusercontent.com/96213780/146293969-eb23fb23-60ed-4c19-9d98-570ab95bd435.png)
+
 ```
 # host 1, 2, 3, 4, 5에서 해당 yaml 파일을 불러온다.
  docker-compose -f host1~5.yaml up -d
@@ -160,7 +162,4 @@ docker exec -e CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fa
  docker-compose -f host n .yaml down -v
 ```
 
-
-
-## 라이선스
 
