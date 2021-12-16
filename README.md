@@ -6,6 +6,10 @@
 디지털 프레임워크 블록체인 기술을 사용하여 만든 프로토타입을 기반으로 실제 사용할 서비스에 대한 체인코드를 개발 및 구현할 수 있다.
 
 ##  네트워크 구성
+
+![image](https://user-images.githubusercontent.com/96213780/146293677-c8d46412-5a6b-4436-ab78-7aa3ccb449e0.png)
+
+
 RAFT Ordering Service를 사용하기 위해, AWS EC2에서 인스턴스 5개 생성. 각 인스턴스는 블록체인 노드가 된다.
 
 HOST1 : Orderer1, CA, peer0.org1, msp, couchdb, 웹 클라이언트 서버, cli </br>
