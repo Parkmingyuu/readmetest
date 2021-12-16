@@ -7,9 +7,7 @@
 
 ##  네트워크 구성
 
-![image](https://user-images.githubusercontent.com/96213780/146294100-972fb925-37a8-4784-b8b9-29625f082a93.png)
-
-
+![image](https://user-images.githubusercontent.com/96213780/146294228-fa5118be-c18c-4fb4-bb0a-69e45aa48d21.png)
 
 RAFT Ordering Service를 사용하기 위해, AWS EC2에서 인스턴스 5개 생성. 각 인스턴스는 블록체인 노드가 된다.
 
