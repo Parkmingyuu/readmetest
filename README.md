@@ -21,16 +21,22 @@ HOST5 : Orderer5, CA, peer0.org5, msp, couchdb </br>
 ### 운영체제
 Ubuntu LTS 20.04
 ### 유틸리티
-Golang 1.14 이상 </br>
-Git 최신버전 </br>
-cURL 최신버전 </br>
-python3 최신버전 </br>
-Nodejs v8 이상  </br>
-Build-essential 최신버전 </br>
-jq 최신버전 </br>
-Docker-v17.06.2-ce 이상 </br>
-docker-compose
-MongoDB 
+|이름|버전|
+|---|---|
+|Golang|1.14 이상|
+|Git|최신버전|
+|cURL|최신버전|
+|Nodejs|v8 이상|
+|Build-essential|최신버전|
+|jq|최신버전|
+|Golang|1.14 이상|
+|Docker|17.06.2-ce 이상|
+|docker-compose|최신버전|
+|MongoDB|최신버전|
+
+
+
+
 
 
 ## 설치
